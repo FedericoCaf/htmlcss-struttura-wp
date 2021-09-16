@@ -1,0 +1,44 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix::after{
+  content:"";
+  display: table;
+  clear: both;
+}
+
+.container{
+ width:80%;
+ margin: 10px auto;
+}
+
+header{
+  height: 100px;
+  background-color: fuchsia;
+  
+}
+
+.top-content{
+  min-height: 300px;
+  background-color:#E1D67A;
+  margin: 20px 0;
+}
+
+.central-content{
+  min-height: 400px;
+  background-color:#0087FF;
+  margin-bottom: 10px;
+}
+
+footer{
+  height: 70px;
+  background-color: #8801FE;
+}
+
+.central-title{
+  min-height: 70px;
+  background-color:#ABCFE7;
+}
